@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes/routes.js');
+const routerAmongRoutes = require('./routes');
 
 const {
   DB_URL,
